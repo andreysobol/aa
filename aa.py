@@ -8,6 +8,9 @@ class Set():
     def get_elements(self):
         return self.elements
 
+    def __getitem__(self, item):
+        return self.elements[item]
+
 def is_element(element, target_set):
     return element in target_set
 
@@ -45,4 +48,3 @@ def is_closed(target_set, operation, arguments):
 
 def is_magma(target_set, operation):
     return is_closed(target_set, operation, 1)
-
