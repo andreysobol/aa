@@ -1,4 +1,6 @@
-|                    | Totality | Associativity | Identity | Invertibility | Commutativity |
+# Group-like structures
+
+| | [Totality](https://en.wikipedia.org/wiki/Partial_function) | [Associativity](https://en.wikipedia.org/wiki/Associative_property) | [Identity](https://en.wikipedia.org/wiki/Identity_element) | [Invertibility](https://en.wikipedia.org/wiki/Inverse_element) | [Commutativity](https://en.wikipedia.org/wiki/Commutative_property) |
 |:------------------:|:--------:|:-------------:|:--------:|:-------------:|:-------------:|
 |    Semigroupoid    |          |    Required   |          |               |               |
 |   Small category   |          |    Required   | Required |               |               |
@@ -13,3 +15,5 @@
 | Commutative monoid | Required |    Required   | Required |               |    Required   |
 |        Group       | Required |    Required   | Required |    Required   |               |
 |    Abelian group   | Required |    Required   | Required |    Required   |    Required   |
+
+https://en.wikipedia.org/wiki/Group_(mathematics)#Generalizations
